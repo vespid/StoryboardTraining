@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="d5v-sY-aYO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StoryboardTrainingSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lod-Hq-XIH">
+                                <rect key="frame" x="40" y="107" width="90" height="30"/>
+                                <state key="normal" title="Push me!!"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DKa-dO-2HR">
+                                <rect key="frame" x="30" y="145" width="174" height="105"/>
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKk-7i-r5s">
+                                        <rect key="frame" x="63" y="37" width="51" height="31"/>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tog-XL-tvg">
+                                <rect key="frame" x="40" y="78" width="111" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WaC-5X-kCS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1948" y="417"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="k45-ad-kNP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d5v-sY-aYO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mJc-cn-4hI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Gcb-YS-QJb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWX-TM-f2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1240" y="417"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XCY-Fm-Y8w">
+            <objects>
+                <viewController id="xUV-bm-hMw" customClass="ViewController" customModule="StoryboardTrainingSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i7l-uM-j5n"/>
+                        <viewControllerLayoutGuide type="bottom" id="pkL-7n-GOY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5vC-j5-7l9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cZ-M4-ELH">
+                                <rect key="frame" x="251" y="141" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vvE-HP-2xk">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7PJ-q4-Gjg">
+                                        <rect key="frame" x="8" y="8" width="51" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="jUj-2i-DEP"/>
+                                            <constraint firstAttribute="width" constant="49" id="ucy-bv-l7b"/>
+                                        </constraints>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="7eW-8R-1F1"/>
+                                    <constraint firstItem="7PJ-q4-Gjg" firstAttribute="top" secondItem="vvE-HP-2xk" secondAttribute="top" constant="8" id="BZZ-tr-LMM"/>
+                                    <constraint firstAttribute="width" constant="120" id="T2r-yN-IA6"/>
+                                    <constraint firstItem="7PJ-q4-Gjg" firstAttribute="leading" secondItem="vvE-HP-2xk" secondAttribute="leading" constant="8" id="XHw-H0-Aof"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yre-Rf-4uR">
+                                <rect key="frame" x="295" y="64" width="10" height="176"/>
+                                <color key="backgroundColor" red="0.73333333329999995" green="0.73333333329999995" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="A0X-x3-Bye"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45m-ci-bsf">
+                                <rect key="frame" x="30" y="420" width="69" height="30"/>
+                                <state key="normal" title="Push me!!"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="45m-ci-bsf" firstAttribute="left" secondItem="5vC-j5-7l9" secondAttribute="left" constant="30" id="1j9-dh-hP2"/>
+                            <constraint firstItem="yre-Rf-4uR" firstAttribute="bottom" secondItem="vvE-HP-2xk" secondAttribute="bottom" id="20M-eR-Rot"/>
+                            <constraint firstItem="vvE-HP-2xk" firstAttribute="top" secondItem="yre-Rf-4uR" secondAttribute="bottom" id="79j-XE-jUF"/>
+                            <constraint firstItem="pkL-7n-GOY" firstAttribute="top" secondItem="45m-ci-bsf" secondAttribute="bottom" constant="150" id="NWt-fa-XQg"/>
+                            <constraint firstItem="2cZ-M4-ELH" firstAttribute="centerY" secondItem="yre-Rf-4uR" secondAttribute="centerY" id="RjZ-Lx-j3O"/>
+                            <constraint firstItem="2cZ-M4-ELH" firstAttribute="centerX" secondItem="yre-Rf-4uR" secondAttribute="centerX" id="WdG-QQ-26S"/>
+                            <constraint firstItem="vvE-HP-2xk" firstAttribute="centerY" secondItem="5vC-j5-7l9" secondAttribute="centerY" id="c1u-DM-4L4"/>
+                            <constraint firstItem="yre-Rf-4uR" firstAttribute="top" secondItem="i7l-uM-j5n" secondAttribute="bottom" id="cBO-MM-JgE"/>
+                            <constraint firstItem="vvE-HP-2xk" firstAttribute="centerX" secondItem="5vC-j5-7l9" secondAttribute="centerX" id="gxN-kJ-ekA"/>
+                            <constraint firstItem="yre-Rf-4uR" firstAttribute="centerX" secondItem="5vC-j5-7l9" secondAttribute="centerX" id="k7e-YC-IRc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="20M-eR-Rot"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="oFw-9D-amZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xX7-uZ-69L" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1948" y="1112"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eea-Da-FAK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XQX-FK-h5D" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uzy-bf-Kxl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xUV-bm-hMw" kind="relationship" relationship="rootViewController" id="Od5-Dr-jEi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gTb-CQ-LAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1240" y="1112"/>
+        </scene>
+    </scenes>
+</document>
