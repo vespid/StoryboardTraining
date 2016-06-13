@@ -1,0 +1,2 @@
+# StoryboardTraining
+デザイナー向けStoryboard勉強会資料
