@@ -200,7 +200,7 @@ Safariで閲覧すること
 
 ## Asset Catalog
 
-- [About Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/Recipe.html)
+- [Asset Catalog Help](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/Recipe.html)
 
 ## Segue
 
@@ -218,11 +218,11 @@ Safariで閲覧すること
 
 ## 参考資料
 
-- [About the Utilities Area](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/AbouttheUtilityArea.html)
+- [Xcode Basics Help](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/Recipe.html)
 - [Storyboard Help](https://developer.apple.com/library/ios/recipes/xcode_help-IB_storyboard/_index.html#//apple_ref/doc/uid/TP40014225)
 - [Xcode Overview: Designing with Storyboards](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/DesigningwithStoryboards.html#//apple_ref/doc/uid/TP40010215-CH43-SW1)
 - [2つ目のiOSアプリケーション：ストーリーボード (TP40011318 0.0.0) - SecondiOSAppTutorial.pdf](https://developer.apple.com/jp/documentation/SecondiOSAppTutorial.pdf)
 - [Auto Layoutガイド (TP40010853 0.0.0) - AutolayoutPG.pdf](https://developer.apple.com/jp/documentation/AutolayoutPG.pdf)
 - [Auto Layoutガイド：Auto Layoutの概要](https://developer.apple.com/jp/documentation/UserExperience/Conceptual/AutolayoutPG/index.html)
-- [About Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/Recipe.html)
+- [Asset Catalog Help](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/Recipe.html)
 - [今度こそ克服するAutoLayoutの使い方・基礎編～SwiftからはじめるiOSアプリ開発:その5【初心者向けアプリ開発3分tips】 - エンジニアtype](http://type.jp/et/log/article/ra-ios-tips06)
