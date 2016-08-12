@@ -202,20 +202,6 @@ Safariで閲覧すること
 
 - [Asset Catalog Help](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/Recipe.html)
 
-## Segue
-
-## Storyboardファイルの作成
-
-- 一番上のグループを右クリック > New File...
-
-## Storyboard Reference
-
-## コードとのひも付け
-
-## Runtime Attributes
-
-## IB Designable and Inspectable
-
 ## 参考資料
 
 - [Xcode Basics Help](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/Recipe.html)
