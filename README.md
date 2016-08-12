@@ -60,9 +60,6 @@
 ### Window
 
 <img src="./images/xcode-area-name/window.png" width="700"/> 
- 
-(via [About the Xcode Main Window](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/Recipe.html#//apple_ref/doc/uid/TP40010548-CH9-SW1))
-
 
 ### Editor
 
@@ -74,9 +71,7 @@
 
 ### Pane
 
-<img src="./images/xcode-area-name/pane.png" width="700"/>
-
-(via [About the Utilities Area](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/AbouttheUtilityArea.html#//apple_ref/doc/uid/TP40010548-CH8-SW1))
+<img src="./images/xcode-area-name/pane.png" width="200"/>
 
 ### Inspector pane
 
