@@ -41,7 +41,7 @@
 - 新規プロジェクトを作成します
   1. File > New > Project
   1. `Choose a template for your new project:` で `Single View Application` を選択してNextボタンを押します
-     - ![newpj](./images/create-xcode-project/template.png)
+     - <img src="./images/create-xcode-project/template.png" width="500"/>
   1. `Choose options for your new project:` で以下のように入力して、Nextボタンを押します
      - Product Name: アプリ名
          - 今回は任意のものでOK
@@ -52,15 +52,15 @@
      - Language: 開発に使用するプログラミング言語 
          - 今回は `Swift` を選択
      - Devices: 対応する端末
-
-     - ![newpj](./images/create-xcode-project/options.png)
+     - <img src="./images/create-xcode-project/options.png" width="500"/>
   1. プロジェクトの保存先を指定してCreateボタンを押します
 
 ## Xcodeの各エリアの名称
 
 ### Window
 
-![window](./images/xcode-area-name/window.png)
+<img src="./images/xcode-area-name/window.png" width="700"/> 
+ 
 (via [About the Xcode Main Window](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/Recipe.html#//apple_ref/doc/uid/TP40010548-CH9-SW1))
 
 
@@ -74,7 +74,8 @@
 
 ### Pane
 
-![pane](./images/xcode-area-name/pane.png)
+<img src="./images/xcode-area-name/pane.png" width="700"/>
+
 (via [About the Utilities Area](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/AbouttheUtilityArea.html#//apple_ref/doc/uid/TP40010548-CH8-SW1))
 
 ### Inspector pane
@@ -116,11 +117,11 @@
 1. `Label` を `View Controller Scene` 内にドラッグアンドドロップします
   - `View Controller Scene` の左上の方に置くようにしてください
   - インタフェースオブジェクトの種類が多くて見つけにくいので、下にあるフィルタを利用すると簡単に任意のインタフェースオブジェクトを配置できます
-  - ![filter](./images/create-interface-object/filter.png)
-  - ![create-label](./images/create-interface-object/create-label.png)
+  - <img src="./images/create-interface-object/filter.png" width="300"/>
+  - <img src="./images/create-interface-object/create-label.png" width="500"/>
 1. 作成したラベルを選択した状態で、 `Attribute inspector` を表示します
 1. Textの下のテキストフィールドに任意の文字列を入力します
-  - ![custom-text](./images/create-interface-object/custom-text.png)
+  - <img src="./images/create-interface-object/custom-text.png" width="300"/>
 1. ↑で入力した文字列がラベル内で表示しきれない場合は、ラベルのサイズを調整します
 
 #### やってみよう💪
@@ -129,13 +130,12 @@
 1. Viewを作成して、背景色を赤にしてみましょう
 1. 背景が赤いViewの上にSwitchを作成してみましょう
 
-
-![answer](./images/create-interface-object/answer.png)
+<img src="./images/create-interface-object/answer.png" width="700"/>
 
 ## シミュレータの起動
 
 - Toolbarのデバイス名が表示されている所をクリックし、任意のデバイスを選択します
-  - ![run](./images/run-simulator/select-device.png)
+  - <img src="./images/run-simulator/select-device.png" width="500"/>
 - Runボタン![run](./images/run-simulator/run.png)を押します
   - ショートカットキーは `Command+r` です
 - シミュレータが起動し、作成したインタフェースオブジェクトが表示されていれば成功です
@@ -143,14 +143,14 @@
 - Hardware > Rotate Left および Rotate Right で画面を回転できます
   - ショートカットキーは　`Command+←` および `Command+→` です
 
-![simulator](./images/run-simulator/simulator.png)
+<img src="./images/run-simulator/simulator.png" width="300"/>
 
 ## Debug View Hierarchy
 
 - シミュレータ起動中にDebug areaの ![button](./images/debug-view-hierarchy/button.png) ボタンを押します
 - Viewの階層が3D表示されます
 
-![hierarchy](./images/debug-view-hierarchy/hierarchy.png)
+<img src="./images/debug-view-hierarchy/hierarchy.png" width="200"/>
 
 ## Storyboard Preview
 
@@ -158,11 +158,11 @@
 
 - Assistant editorを表示します
 - Automaticと表示されている部分をクリックし、 Preview > Main Storyboard(Preview) を選択します
-  - ![preview](./images/storyboard-preview/select-preview.png)
+  - <img src="./images/storyboard-preview/select-preview.png" width="500"/>
 - Assistant editorの左下の `+` をクリックし任意のデバイスを選択します
   - 複数のデバイスでのレイアウトを同時に確認できます
 
-![preview](./images/storyboard-preview/preview.png)
+<img src="./images/storyboard-preview/preview.png" width="500"/>
 
 ## Navigationbar
 
@@ -170,7 +170,7 @@
 
 - `View Controller Scene` を選択します
 - Editor > Embed In > Navigation Controller
-  - ![navigationbar](./images/navigationbar/navigationbar.png)
+  - <img src="./images/navigationbar/navigationbar.png" width="500"/>
 - シミュレータやStoryboard Previewでレイアウトを確認します
 
 
@@ -183,7 +183,7 @@ Safariで閲覧すること
 
 ### 一緒にやろう👟
 
-![pranctice1](./images/autolayout/practice1.png)
+<img src="./images/autolayout/practice1.png" width="400"/>
 
 ### やってみよう💪
 
