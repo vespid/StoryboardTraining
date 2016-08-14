@@ -192,6 +192,19 @@ Safariで閲覧すること
 
 <img src="./images/autolayout/error-detail.png" width="200"/>
 
+### Viewの自動再配置
+
+- 下図のように黄色い点線でViewのサイズが表示される場合は、制約とViewの位置,サイズの間に不整合があります
+
+- この場合はStoryboardのViewの自動再配置機能を使用してViewを再配置します
+
+1. 再配置したいViewを選択します
+1. Edit area右下の![triangle](./images/autolayout/triangle.png)ボタンをクリックします
+1. `Update Frames` を選択します
+1. Viewが自動的に再配置され、黄色の点線が消えます
+1. `Update Constraints` を選択するとViewの位置,サイズに合わせて制約が変更されますが、制約に合わせてViewの位置,サイズを修正するほうがあるべき姿なので、こちらは使用しないほうがいいです
+
+
 ### マージン
 
 `Push me!` ボタン配置を確認してください。良い例になっていればOKです。
