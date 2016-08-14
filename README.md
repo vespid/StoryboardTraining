@@ -195,7 +195,7 @@ Safariで閲覧すること
 ### Viewの自動再配置
 
 - 下図のように黄色い点線でViewのサイズが表示される場合は、制約とViewの位置,サイズの間に不整合があります
-
+  - <img src="./images/autolayout/update-frames.png" width="300"/>
 - この場合はStoryboardのViewの自動再配置機能を使用してViewを再配置します
 
 1. 再配置したいViewを選択します
@@ -232,11 +232,21 @@ Safariで閲覧すること
 
 1. 全画面でマージンなしの水色のViewを作ってみましょう
   - <img src="./images/autolayout/exam1.png" width="300"/>
-1. Auto Layoutガイドの等幅のビューを作ってみましょう
-1. 幅が異なる2つのビューを作ってみましょう
-1. 等間隔に横に並ぶ3つのピンク色のビューを作ってみましょう
-  - 3つのビューの横幅と縦幅は50ポイントに固定です
-  - 左右のビューは画面左右端から0ポイントの位置にあります
+1. 以下のビューを作ってみましょう
+  - Yellow View.Leading = Superview.LeadingMargin
+  - Green View.Leading = Yellow View.Trailing + Standard
+  - Green View.Trailing = Superview.TrailingMargin
+  - Yellow View.Top = Top Layout Guide.Bottom + 20.0
+  - Green View.Top = Top Layout Guide.Bottom + 20.0
+  - Bottom Layout Guide.Top = Yellow View.Bottom + 20.0
+  - Bottom Layout Guide.Top = Green View.Bottom + 20.0
+  - Yellow View.Width = Green View.Width
+  - <img src="./images/autolayout/exam2.png" width="300"/>
+1. 等間隔に横に並ぶ4つのピンク色のビューを作ってみましょう
+  - 4つのViewの横幅と縦幅は50ポイントに固定です
+  - 左右のViewは画面左右端から0ポイントの位置にあります
+  - 4つのViewの中央は画面の水平中央にあります
+  - <img src="./images/autolayout/exam3.png" width="300"/>
 
 ### Leran more
 
