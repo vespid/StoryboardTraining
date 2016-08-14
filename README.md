@@ -180,9 +180,45 @@ Safariで閲覧すること
 
 <img src="./images/autolayout/practice1.png" width="400"/>
 
+
+### エラーの確認
+
+- 下図の様に赤または黄色の矢印が出ている場合は、なにかエラーまたは警告があるので修正する必要があります
+- 矢印をクリックするとエラーまたは警告の詳細を確認できます 
+
+<img src="./images/autolayout/error.png" width="200"/>
+
+#### エラー詳細
+
+<img src="./images/autolayout/error-detail.png" width="200"/>
+
+### マージン
+
+`Push me!` ボタン配置を確認してください。良い例になっていればOKです。
+
+### 良い例
+<img src="./images/autolayout/margin-good.png" width="200"/>
+
+### 悪い例
+<img src="./images/autolayout/margin-bad.png" width="200"/>
+
+悪い例の状態になっている場合は、制約が `Relative to margin` になっている可能性があります。 
+これは、iOSが定めているデフォルトのマージンからの距離の制約になっているという意味です。 
+今回の場合は画面右端からの制約にしたいので  `Relative to margin` を解除します。
+
+1. 制約をクリック または Size inspectorから制約をダブルクリック
+1. 以下の画面で制約に `Margin` と書かれていることを確認します
+  - <img src="./images/autolayout/before-fix-margin.png" width="300"/>
+1. プルダウンメニューから `Relative to margin` を選択し、チェックをはずします
+  - <img src="./images/autolayout/after-fix-margin.png" width="300"/>
+1. 制約が修正され、Viewが自動的に再配置されます
+
 ### やってみよう💪
 
+回答は `./StoryboardTrainingSample/Base.lproj/Main.storyboard` 内にあります。
+
 1. 全画面でマージンなしの水色のViewを作ってみましょう
+  - <img src="./images/autolayout/exam1.png" width="300"/>
 1. Auto Layoutガイドの等幅のビューを作ってみましょう
 1. 幅が異なる2つのビューを作ってみましょう
 1. 等間隔に横に並ぶ3つのピンク色のビューを作ってみましょう
