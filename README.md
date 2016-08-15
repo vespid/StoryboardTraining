@@ -248,7 +248,7 @@ Safariで閲覧すること
   - 4つのViewの中央は画面の水平中央にあります
   - <img src="./images/autolayout/exam3.png" width="300"/>
 
-### Leran more
+### Learn more
 
 - [Auto Layoutの設計ベストプラクティスと、Viewの種類ごとのテクニック集 - Qiita](http://qiita.com/yuya_presto/items/08b0656f67a59c8c2d03)
 
