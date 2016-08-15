@@ -215,9 +215,9 @@ Safariで閲覧すること
 ### 悪い例
 <img src="./images/autolayout/margin-bad.png" width="200"/>
 
-悪い例の状態になっている場合は、制約が `Relative to margin` になっている可能性があります。 
-これは、iOSが定めているデフォルトのマージンからの距離の制約になっているという意味です。 
-今回の場合は画面右端からの制約にしたいので  `Relative to margin` を解除します。
+悪い例の状態になっている場合は、制約が `Relative to margin` になっている可能性があります。  
+`Relative to margin` は、iOSが定めているデフォルトのマージンからの距離の制約という意味です。  
+今回の場合は画面左端からの制約(つまり、マージンを無視)にしたいので  `Relative to margin` を解除します。
 
 1. 制約をクリック または Size inspectorから制約をダブルクリック
 1. 以下の画面で制約に `Margin` と書かれていることを確認します
