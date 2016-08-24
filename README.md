@@ -9,7 +9,7 @@
 - Xcodeのインストール
   - どちらか好きな方でインストールしてください
      - https://itunes.apple.com/jp/app/xcode/id497799835?mt=12
-     - https://developer.apple.com/downloads/
+     - https://developer.apple.com/download/
 - Xcodeを1回以上起動
   - 初回起動は時間がかかります
 
