@@ -7,9 +7,7 @@
 以下の作業を事前に完了させておいてください。
 
 - Xcodeのインストール
-  - どちらか好きな方でインストールしてください
-     - https://itunes.apple.com/jp/app/xcode/id497799835?mt=12
-     - https://developer.apple.com/download/
+  - https://itunes.apple.com/jp/app/xcode/id497799835?mt=12
 - Xcodeを1回以上起動
   - 初回起動は時間がかかります
 
@@ -29,9 +27,8 @@
   - Viewを管理する機能の集合です
   - アプリの各画面は1つ以上のView Controllerで構成されています
   - 簡単なiOSアプリの画面は、1画面=1View Controllerで構成されていることが多いです
-  - 複雑な画面を構成するために、View Controllerの中にView Controllerを配置することができます
-  - **Storyboard上ではScene(シーン)と呼ばれることがあります**
-
+  - 複雑な画面を構成するために、View Controllerの中にView Controllerを配置することができます
+　
 - Segue(セグエ)
   - あるシーンから次のシーンへのトランジション(遷移)を表します
   - Segueをカスタムすることで、画面間のデータの受け渡しを実現できます
@@ -56,6 +53,8 @@
   1. プロジェクトの保存先を指定してCreateボタンを押します
 
 ## Xcodeの各エリアの名称
+
+わからなくなった時に確認するのでもok
 
 ### Window
 
